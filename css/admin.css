@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.borda{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.textCenter{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbFull{
+    width: 100%;
+}
+.tb30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btnPrimary{
+    background-color: #053B50;
+    border-radius: 7px;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btnPrimary:hover{
+    background-color: #29c9be;
+}
+.btnSecondary{
+    background-color: #7bed9f;
+    border-radius: 7px;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btnSecondary:hover{
+    background-color: #2ed573;
+}
+.btnDanger{
+    background-color: #ff6b81;
+    border-radius: 7px;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btnDanger:hover{
+    background-color: #ff4757;
+}
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+
+
+/*Menu CSS*/
+.menu{
+    background-color: #053B50;
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+.menu ul li a:hover{
+    color: #64CCC5;
+}
+
+/*Main Content CSS*/
+.mainContent{
+    background-color: #ECF4D6;
+    padding: 3% 0;
+}
+.coluna4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/*Rodape CSS*/
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+/*Login CSS*/
+.login{
+    border: 1px solid grey;
+    border-radius: 14px;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}

@@ -58,7 +58,7 @@ if (isset($_POST['submit']))
     // 1. Pegar os dados do formulário
     $id = $_POST['id'];
     $current_password = md5($_POST['current_password']);
-    $nova_senha = md5($_POST['nova_senha']);
+    $new_password = md5($_POST['new_password']);
     $confirmacao_nova_senha = md5($_POST['confirmacao_nova_senha']);
 
     // 2. Verificar se o ID de Usuário e Senha atuais Existem ou não
@@ -78,11 +78,11 @@ if (isset($_POST['submit']))
             // echo "Usuário Encontrado";
 
             // Verificar se a Nova senha e confirmar senha são iguais ou não
-            if ($nova_senha == $confirmacao_nova_senha) 
+            if ($new_password == $confirmacao_nova_senha) 
             {
                 // Atualizar a Senha
                 $sql2 = "UPDATE tb_admin SET
-                    password = '$nova_senha'
+                    password = '$new_password'
                     WHERE id=$id
                 ";
 

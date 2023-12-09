@@ -2,12 +2,12 @@
 
 <div class="mainContent">
     <div class="borda">
-        <h1>Manage Product</h1>
+        <h1>Manage Product 🛍️</h1>
 
         <br /><br />
 
                 <!-- Btn to Add Product -->
-                <a href="#" class="btnPrimary">Add Product</a>
+                <a href="<?php echo SITEURL; ?>admin/add-product.php" class="btnPrimary">Add Product</a>
 
                 <br /><br /><br />
 

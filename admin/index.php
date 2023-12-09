@@ -3,7 +3,7 @@
         <!-- Main Content Starts -->
         <div class="mainContent">
             <div class="borda">
-                <h1>Dashboard</h1>
+                <h1>Dashboard 📊</h1>
 
                 <?php 
                     if(isset($_SESSION['login'])) {

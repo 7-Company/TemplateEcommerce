@@ -3,11 +3,13 @@
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    
 }
 .borda{
     padding: 1%;
     width: 80%;
     margin: 0 auto;
+
 }
 .textCenter{
     text-align: center;
@@ -20,12 +22,13 @@
     width: 100%;
 }
 .tb30{
-    width: 30%;
+    width: 40%;
+    
 }
 table tr th{
     border-bottom: 1px solid black;
     padding: 1%;
-    text-align: left;
+    text-align: left; /*Can be deleted*/ 
 }
 table tr td{
     padding: 1%;
@@ -75,6 +78,7 @@ table tr td{
 .menu{
     background-color: #053B50;
     border-bottom: 1px solid grey;
+    
 }
 .menu ul{
     list-style-type: none;
@@ -96,6 +100,7 @@ table tr td{
 .mainContent{
     background-color: #ECF4D6;
     padding: 3% 0;
+    ;
 }
 .coluna4{
     width: 18%;
@@ -118,4 +123,5 @@ table tr td{
     width: 20%;
     margin: 10% auto;
     padding: 2%;
+    background-color: #EEEEEE;
 }

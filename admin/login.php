@@ -12,12 +12,15 @@
 </head>
 
 <!--<section class="navBar">
+
     <div class="container">
       <div class="logo">
         <a href="<?php echo SITEURL; ?>" title="Logo">
           <img src="../images/logo.png" alt="Logo Restaurante" class="img-responsive" />
         </a>
       </div>-->
+
+
 <body>
     <div class="login">
         <h1 class="textCenter">Login</h1>
